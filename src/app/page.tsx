@@ -33,8 +33,8 @@ const FAMILIES = [
   },
   {
     id: "guillen",
-    name: "Familia de Marili Guillen Sands",
-    nameButton: "Familia de Marili Guillen Sands",
+    name: "Familia de Marili Guillén Sands",
+    nameButton: "Familia de Marili Guillén Sands",
     members: [
       "Fidel Guillén",
       "Lili Rivera",
@@ -153,7 +153,7 @@ export default function Home() {
             className="rounded-xl py-4 px-6 bg-pink-500 text-white font-bold text-xl shadow-lg hover:scale-105 transition-transform border-4 border-pink-300 hover:border-yellow-300 focus:outline-none focus:ring-4 focus:ring-pink-200"
             onClick={() => setSelectedFamily("guillen")}
           >
-            Familia de Marili Guillen Sands
+            Familia de Marili Guillén Sands
           </button>
         </div>
       </div>
